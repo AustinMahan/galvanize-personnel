@@ -2,9 +2,34 @@
 <html>
     <head>
         <meta charset="utf-8">
+        <link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.6/cosmo/bootstrap.min.css" rel="stylesheet" integrity="sha384-OiWEn8WwtH+084y4yW2YhhH6z/qTSecHZuk/eiWtnvLtU+Z8lpDsmhOKkex6YARr" crossorigin="anonymous">
+        <link rel="stylesheet" href="assets/styles/main.css">
         <title>Galvanize Personnel</title>
     </head>
     <body>
-        
+      <div class="container">
+        <div class="row col-md-5">
+        <h1>Galvanize Personnel</h1>
+
+        <form class="" action="index.html" method="post">
+          <label for="fName">First Name</label>
+          <input type="text" id="fName" class="form-control">
+          <label for="lName">Last Name</label>
+          <input type="text" id='lName' class="form-control">
+          <label for="roleSelect">Role</label>
+
+          <select id='roleSelect' class="form-control">
+            <option value="" disabled selected>Select your option</option>
+          </select>
+
+          <img src="http://placehold.it/300x300">
+          <p class="success form-control"></p>
+          <p class="save-status form-control"></p>
+          <button type="button" name="save" class="form-control btn btn-primary">Save</button>
+          </div>
+        </form>
+      </div>
+      <script   src="https://code.jquery.com/jquery-3.1.0.min.js"   integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="   crossorigin="anonymous"></script>
+      <script type="text/javascript" src='assets/scripts/app.js'></script>
     </body>
 </html>
