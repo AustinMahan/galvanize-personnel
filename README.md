@@ -1,1 +1,1 @@
-https://github.com/AustinMahan/galvanize-personnel
+https://austinmahan.github.io/galvanize-personnel/
