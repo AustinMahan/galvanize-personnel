@@ -26,7 +26,7 @@ $(document).ready(function() {
       var lName = $('#lName').val()
       var role = $('#roleSelect').val()
       $.ajax({
-        url:'http://galvanize-student-apis.herokuapp.com/gpersonnel/users',
+        url:'https://galvanize-student-apis.herokuapp.com/gpersonnel/users',
         method: 'POST',
         data: { firstName: fName, lastName: lName, role: role },
         success: function(suc){
